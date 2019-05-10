@@ -8,11 +8,14 @@
 #ifdef CATCH_CONFIG_MAIN
 
 /*int main() {
- *
+
     Arena arena1;
     Fighter *blee = new Fighter('E','0','A','P','S','F');
     Fighter *cnorris = new Fighter('E','S','A','P','0','F');
     arena1.run (blee, cnorris);
+
+    arena1.load_fights("peleas.txt");
+    arena1.run_all();
 
     return 0;
 }*/
